@@ -17,7 +17,7 @@
                 @foreach ($tasks as $task)
                 <tr>
                     <td>{{ $task->id }}</td>
-                    <td>{{ $task->title }}</td>
+                    <td>{{ $task->status }}</td>
                     <td>{{ $task->content }}</td>
                 </tr>
                 @endforeach
